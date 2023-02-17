@@ -22,7 +22,7 @@ body {
 }
 .links {
   width: 350px;
-  margin-left: 590px;
+  margin-left: 550px;
 }
 .header-link {
   display: inline-block;
@@ -70,6 +70,7 @@ body {
   font-size: 18px;
   line-height: 24px;
   color: #ffffff;
+  margin-left: 800px;
 }
 .button-text {
   vertical-align: middle;
@@ -94,9 +95,8 @@ body {
 }
 .button-main {
   display: flex;
-  margin-top: -115px;
-  margin-bottom: 45px;
-  margin-left: 800px;
+  margin-bottom: -50px;
+  margin-left: 30px;
   padding: 8px 16px;
   background: #1b1b1b;
   border: none;
@@ -148,7 +148,7 @@ body {
   display: flex;
   margin-left: 60px;
   box-shadow: -3px 2px 2px 0px #ffa31a;
-  margin-top: -245px;
+  margin-top: -235px;
 }
 .item_3-image {
   display: flex;
@@ -458,24 +458,27 @@ body {
   }
   .promo {
     background-color: #292929;
-    border-radius: 0px;
-    width: 1050px;
+    padding: 0px;
   }
   .promo-img {
+    width: 1050px;
+    height: 400px;
     display: flex;
     justify-content: center;
     border-radius: 20px;
     margin-left: 70px;
-    padding-left: 70px;
   }
   .promo-title {
-    margin-left: 550px;
+    padding-left: 600px;
+    padding-top: 50px;
+    padding-right: 0px;
+    width: 1000px;
     font-size: 42px;
   }
   .button-main {
     height: 50px;
-    margin-left: 710px;
-    margin-top: -113px;
+    margin-left: 718px;
+    margin-top: -140px;
   }
   .button-text-main {
     font-size: 28px;
@@ -488,8 +491,8 @@ body {
   }
   .item_1-text {
     margin-left: 70px;
-    margin-top: 200px;
-    margin-bottom: -270px;
+    margin-top: 230px;
+    margin-bottom: -290px;
     text-shadow: #000000 3px 3px;
   }
   .item_1-image {
@@ -504,7 +507,7 @@ body {
   .item_2-image {
     margin-left: 75px;
     box-shadow: -3px 2px 2px 0px #ffa31a;
-    margin-top: -290px;
+    margin-top: -310px;
   }
   .item_3-text {
     margin-left: 70px;
@@ -514,18 +517,49 @@ body {
   }
   .item_3-image {
     margin-left: 670px;
-    padding-top: -200px;
+    margin-top: -315px;
     box-shadow: 3px 2px 2px 0px #ffa31a;
-  }
-  .section-heading {
-    width: 600px;
-    margin-left: 70px;
-    margin-top: 50px;
   }
   .section-title {
     font-size: 42px;
   }
+  .main {
+    width: 1150px;
+  }
   .swiper-scroller {
-    max-width: 100%;
+    margin-left: 70px;
+    margin-top: 100px;
+  }
+  .connection {
+    margin-left: 70px;
+  }
+  .connection-title {
+    font-size: 42px;
+  }
+  .connection-sub-title {
+    font-size: 30px;
+  }
+  .input {
+    font-size: 20px;
+    height: 45px;
+  }
+  .input-mail-phone,
+  .input-message {
+    width: 560px;
+  }
+  .footer-block {
+    background-color: #ffa31a;
+    width: 1190px;
+  }
+  .button-connection {
+    margin-top: 380px;
+    margin-left: -410px;
+    width: 200px;
+    height: 45px;
+    background-color: #ffa31a;
+    color: #ffffff;
+    border: 1px solid #000000;
+    border-radius: 20px;
+    font-size: 25px;
   }
 }
