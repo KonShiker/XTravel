@@ -576,6 +576,9 @@ body {
   .connection-title {
     font-size: 42px;
   }
+  .connection-menu-name {
+    width: 700px;
+  }
   .connection-sub-title {
     font-size: 30px;
   }
@@ -586,6 +589,13 @@ body {
   .input-mail-phone,
   .input-message {
     width: 560px;
+  }
+  .input-first-name,
+  .input-surname {
+    width: 250px;
+  }
+  .input-surname {
+    margin-left: 55px;
   }
   .advantage__image-1 {
     margin-left: 70px;
