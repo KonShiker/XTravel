@@ -30,6 +30,10 @@ body {
   line-height: 21px;
   padding-left: 30px;
 }
+.team_link {
+  color: #fff;
+  text-decoration: none;
+}
 .header-nav-adv {
   margin-left: 210px;
   margin-right: -145px;
