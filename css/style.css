@@ -625,6 +625,27 @@ body {
   .advantage-item-3 {
     margin-left: 750px;
   }
+  .image-slider {
+    width: 1200px;
+  }
+  .description-title {
+    font-size: 48px;
+    margin-top: 50px;
+    margin-left: 425px;
+  }
+  .description-text {
+    font-size: 32px;
+    margin-top: 100px;
+    margin-left: 215px;
+  }
+  .team-title {
+    font-size: 48px;
+    margin-top: 100px;
+  }
+  .image-slider__wrapper {
+    margin-top: 100px;
+    margin-bottom: 50px;
+  }
   .footer-block {
     background-color: #ffa31a;
     width: 1200px;
