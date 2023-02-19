@@ -75,6 +75,7 @@ body {
   color: #ffffff;
   margin-left: -120px;
 }
+
 .button-text {
   vertical-align: middle;
 }
@@ -349,6 +350,7 @@ body {
   text-shadow: #000000 3px 3px;
 }
 .description-text {
+  width: 600px;
   color: #ffffff;
   font-size: 26.6px;
   margin-bottom: 30px;
@@ -478,8 +480,8 @@ body {
     margin-left: 10px;
   }
   .header-nav-adv {
-    margin-left: 275px;
-    margin-right: -30px;
+    margin-left: -115px;
+    margin-right: 130px;
     width: 0px;
   }
   .button {
@@ -509,7 +511,7 @@ body {
   }
   .promo {
     background-color: #292929;
-    background: url(../img/rider-n.png) no-repeat left;
+    background: url(../img/rider-n.png) no-repeat;
     border-radius: 10px;
     padding: 0px;
     padding-top: 0px;
@@ -652,56 +654,6 @@ body {
   .input-surname {
     margin-left: 15px;
   }
-  .advantage__image-1 {
-    margin-left: 70px;
-    width: 600px;
-  }
-  .advantage__image-2 {
-    margin-left: 525px;
-    width: 600px;
-  }
-  .advantage__image-3 {
-    margin-left: 70px;
-    width: 600px;
-  }
-  .accordion__content {
-    font-size: 23px;
-  }
-  .advantage-item-1 {
-    margin-left: 750px;
-  }
-  .advantage-item-2 {
-    margin-left: 70px;
-  }
-  .advantage-item-3 {
-    margin-left: 750px;
-  }
-  .image-slider {
-    width: 1200px;
-  }
-  .description-title {
-    font-size: 48px;
-    margin-top: 50px;
-    margin-left: 425px;
-  }
-  .description-text {
-    font-size: 32px;
-    margin-top: 100px;
-    margin-left: 215px;
-  }
-  .team-title {
-    font-size: 48px;
-    margin-top: 100px;
-  }
-  .image-slider__wrapper {
-    margin-top: 100px;
-    margin-bottom: 50px;
-  }
-  .footer-block {
-    background-color: #ffa31a;
-    width: 360px;
-    margin-top: -80px;
-  }
   .button-connection {
     margin-top: 235px;
     margin-left: -215px;
@@ -712,6 +664,172 @@ body {
     border-color: #292929;
     border-radius: 10px;
     font-size: 12px;
+  }
+  .advantage__image-1 {
+    background: url(../img/advantage_1-m.jpg) no-repeat;
+    margin-left: 5px;
+    width: 200px;
+    height: 130px;
+  }
+  .advantage__image-2 {
+    background: url(../img/advantage_2-m.jpg) no-repeat;
+    margin-top: 40px;
+    margin-left: 145px;
+    width: 200px;
+    height: 130px;
+  }
+  .advantage__image-3 {
+    background: url(../img/advantage_3-m.jpg) no-repeat;
+    margin-left: 5px;
+    margin-top: 40px;
+    width: 200px;
+    height: 130px;
+  }
+  .accordion__content {
+    font-size: 11px;
+  }
+  .advantage-item-1 {
+    margin-left: 215px;
+    margin-top: -470px;
+    width: 150px;
+  }
+  .advantage-item-2 {
+    margin-left: 5px;
+    margin-top: 170px;
+  }
+  .advantage-item-3 {
+    margin-top: 340px;
+    margin-left: 215px;
+    margin-bottom: 515px;
+  }
+  .accordion {
+    margin-bottom: 10px;
+    display: inline-block;
+    border: 2px solid #ffa31a;
+    border-radius: 10px;
+    width: 130px;
+    background-color: #292929;
+    position: absolute;
+  }
+  .accordion__control {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    padding: 5px;
+  }
+  .accordion__title {
+    color: #ffffff;
+    font-size: 9px;
+    margin-left: 9px;
+    text-shadow: #1b1b1b 2px 1px;
+  }
+  .accordion__content {
+    display: block;
+    width: 115px;
+    padding: 5px;
+    color: #ffffff;
+    font-size: 9px;
+    margin: 9px;
+    margin-top: -7px;
+    padding-right: 11.5px;
+    text-shadow: #1b1b1b 2px 1px;
+  }
+  .accordion__icon {
+    position: relative;
+    display: inline-block;
+    width: 16.5px;
+    height: 13px;
+    border-radius: 100%;
+    background-color: #ffa31a;
+  }
+  .description-title {
+    font-size: 22px;
+    margin-top: -35px;
+    margin-left: 95px;
+  }
+  .description-text {
+    width: 320px;
+    font-size: 15px;
+    margin-top: 70px;
+    margin-left: -15px;
+    margin-right: 250px;
+  }
+  .team-title {
+    font-size: 22px;
+    margin-top: -46px;
+  }
+  .image-slider__wrapper {
+    margin-top: -15px;
+  }
+  .wrapper {
+    width: 100%;
+    overflow: hidden;
+  }
+  .image-slider {
+    padding: 14px 0 32px 0;
+    overflow: hidden;
+    max-width: 365px;
+    width: 100%;
+    height: 470px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 33px;
+    padding-bottom: 0px;
+    margin-bottom: 120px;
+  }
+  .image-slider__slide {
+    margin-right: 55px;
+  }
+  .image-slider__image {
+    position: relative;
+    align-items: center;
+    width: 138px;
+    height: 184px;
+  }
+  .image-slider__image img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    border: 1px solid #ffa31a;
+    border-radius: 14px;
+  }
+  .image-slider__text {
+    width: 138px;
+    padding-top: 8px;
+    padding-left: 2px;
+    height: 28px;
+    font-style: normal;
+    margin-top: 9px;
+    color: #ffffff;
+    border: 2px solid #ffa31a;
+    text-shadow: #000000 1px 1px;
+    border-radius: 9px;
+    font-size: 7px;
+  }
+  .text-2 {
+    padding-left: 5px;
+  }
+  .text-3 {
+    padding-left: 14px;
+  }
+  .text-4 {
+    padding-left: 9px;
+  }
+  .text-5 {
+    padding-left: 11px;
+  }
+  .text-6 {
+    padding-left: 5px;
+  }
+  .text-7 {
+    padding-left: 15px;
+  }
+  .footer-block {
+    background-color: #ffa31a;
+    width: 360px;
+    margin-top: -80px;
   }
   .header-logo {
     margin-left: 5px;
