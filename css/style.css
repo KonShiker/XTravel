@@ -15,6 +15,7 @@ body {
   align-items: center;
   justify-content: space-between;
   margin-bottom: 20px;
+  width: 0px;
 }
 .links-main {
   width: 500px;
@@ -58,9 +59,7 @@ body {
   background-repeat: no-repeat;
   padding-left: 32px;
 }
-.buttons {
-  align-items: center;
-}
+
 .button {
   width: 90px;
   align-items: center;
@@ -470,7 +469,7 @@ body {
   }
   .header {
     margin-top: 5px;
-    width: 365px;
+    width: 305px;
   }
   .links-main {
     min-width: 75%;
@@ -481,11 +480,7 @@ body {
   .header-nav-adv {
     margin-left: 275px;
     margin-right: -30px;
-    width: 480px;
-  }
-  .buttons {
-    margin-left: 115px;
-    margin-top: -3px;
+    width: 0px;
   }
   .button {
     width: 50px;
@@ -499,6 +494,7 @@ body {
     font-size: 12px;
     line-height: 12px;
     color: #ffffff;
+    margin-left: -5px;
   }
   .header-link {
     display: inline-block;
@@ -537,7 +533,9 @@ body {
     text-shadow: #1b1b1b 2px 1px;
     line-height: 25px;
   }
-
+  .description-item {
+    width: 365px;
+  }
   .button-main {
     height: 23px;
     margin-left: 195px;
@@ -627,7 +625,7 @@ body {
     text-shadow: #000000 2px 2px;
   }
   .connection-menu {
-    width: 700px;
+    width: 300px;
     margin-top: 110px;
     margin-left: -200px;
   }
@@ -706,7 +704,7 @@ body {
   }
   .button-connection {
     margin-top: 235px;
-    margin-left: -253px;
+    margin-left: -215px;
     width: 92px;
     height: 21px;
     background-color: #ffa31a;
