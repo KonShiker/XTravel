@@ -18,7 +18,7 @@ body {
 }
 .links-main {
   width: 500px;
-  margin-left: 400px;
+  margin-left: 550px;
 }
 .header-link {
   display: inline-block;
@@ -74,7 +74,7 @@ body {
   font-size: 18px;
   line-height: 24px;
   color: #ffffff;
-  margin-left: 0px;
+  margin-left: -120px;
 }
 .button-text {
   vertical-align: middle;
@@ -464,16 +464,19 @@ body {
     max-width: none;
   }
   .footer-logo {
-    margin-left: 70px;
+    margin-left: 5px;
+    height: 65px;
+    width: 70px;
   }
   .header {
-    margin-top: 15px;
+    margin-top: 5px;
+    width: 365px;
   }
   .links-main {
     min-width: 75%;
     display: inline-block;
-    width: 700px;
-    margin-left: 20px;
+    width: 215px;
+    margin-left: 10px;
   }
   .header-nav-adv {
     margin-left: 275px;
@@ -481,14 +484,21 @@ body {
     width: 480px;
   }
   .buttons {
-    margin-left: 70px;
+    margin-left: 115px;
+    margin-top: -3px;
   }
   .button {
-    width: 110px;
+    width: 50px;
     text-align: center;
-  }
-  .button-text {
-    font-size: 24px;
+    align-items: center;
+    padding: 4px 8px;
+    padding-bottom: 6px;
+    background: #ffa31a;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-size: 12px;
+    line-height: 12px;
+    color: #ffffff;
   }
   .header-link {
     display: inline-block;
@@ -496,110 +506,153 @@ body {
     text-decoration: none;
     font-style: normal;
     font-weight: normal;
-    font-size: 24px;
+    font-size: 12px;
     line-height: 28px;
-    padding-left: 50px;
+    padding-left: 10px;
+    margin-top: -5px;
   }
   .promo {
     background-color: #292929;
+    background: url(../img/rider-n.png) no-repeat left;
+    border-radius: 10px;
     padding: 0px;
+    padding-top: 0px;
   }
   .promo-img {
-    width: 1050px;
-    height: 400px;
+    width: 340px;
+    height: 175px;
     display: flex;
     justify-content: center;
-    border-radius: 20px;
-    margin-left: 70px;
+    border-radius: 10px;
+    margin-left: 5px;
+    margin-top: -20px;
   }
   .promo-title {
-    padding-left: 600px;
-    padding-top: 50px;
+    margin-left: 170px;
+    margin-top: 40px;
+    padding-top: 10px;
     padding-right: 0px;
-    width: 1000px;
-    font-size: 42px;
+    width: 150px;
+    font-size: 16px;
+    text-shadow: #1b1b1b 2px 1px;
+    line-height: 25px;
   }
+
   .button-main {
-    height: 50px;
-    margin-left: 718px;
-    margin-top: -140px;
+    height: 23px;
+    margin-left: 195px;
+    margin-top: -60px;
+    display: flex;
+    padding: 4px 8px;
+    background: #1b1b1b;
+    border: none;
+    border-radius: 15px;
+    line-height: 15px;
+    color: #ffa31a;
+    padding-right: 15px;
+    padding-left: 15px;
+    box-shadow: 1px 1px 1px 0px #1b1b1b;
   }
   .button-text-main {
-    font-size: 28px;
-    width: 190px;
+    font-size: 12px;
+    width: 88px;
   }
   .descrition-text {
     color: #ffffff;
-    font-size: 35px;
-    width: 550px;
+    font-size: 12px;
+    text-shadow: #000000 2px 1px;
   }
   .item_1-text {
-    margin-left: 70px;
-    margin-top: 170px;
-    margin-bottom: -290px;
-    text-shadow: #000000 3px 3px;
+    margin-left: 5px;
+    margin-top: 45px;
+    margin-bottom: -275px;
+    width: 165px;
   }
   .item_1-image {
-    margin-left: 670px;
+    width: 170px;
+    height: 115px;
+    margin-left: 175px;
+    margin-top: 170px;
     box-shadow: 3px 2px 2px 0px #ffa31a;
   }
   .item_2-text {
+    width: 165px;
     padding-bottom: 0px;
-    margin-left: 580px;
-    text-shadow: #000000 3px 3px;
+    margin-left: 185px;
+    margin-top: -195px;
   }
   .item_2-image {
-    margin-left: 75px;
+    width: 170px;
+    height: 115px;
+    margin-left: 5px;
     box-shadow: -3px 2px 2px 0px #ffa31a;
-    margin-top: -310px;
+    margin-top: -112px;
   }
   .item_3-text {
-    margin-left: 70px;
-    margin-top: 70px;
+    width: 160px;
+    margin-left: 5px;
+    margin-top: -190px;
     margin-bottom: -290px;
-    text-shadow: #000000 3px 3px;
   }
   .item_3-image {
-    margin-left: 670px;
-    margin-top: -315px;
+    width: 170px;
+    height: 115px;
+    margin-left: 175px;
+    margin-top: 175px;
     box-shadow: 3px 2px 2px 0px #ffa31a;
   }
   .section-title {
-    font-size: 42px;
+    font-size: 20px;
   }
   .main {
-    width: 1150px;
+    width: 375px;
   }
   .swiper-scroller {
-    margin-left: 70px;
-    margin-top: 100px;
+    margin-left: 5px;
+    margin-top: -235px;
+  }
+  .itc-slider__wrapper {
+    margin-top: -25px;
+  }
+  .itc-slider__image {
+    width: 170px;
   }
   .connection {
-    margin-left: 70px;
+    margin-left: 5px;
+    margin-top: 0px;
   }
   .connection-title {
-    font-size: 42px;
+    width: 200px;
+    font-size: 21px;
+    text-shadow: #000000 2px 2px;
+  }
+  .connection-menu {
+    width: 700px;
+    margin-top: 110px;
+    margin-left: -200px;
   }
   .connection-menu-name {
-    width: 700px;
+    width: 320px;
   }
   .connection-sub-title {
-    font-size: 30px;
+    font-size: 14px;
+    width: 100px;
   }
   .input {
-    font-size: 20px;
-    height: 45px;
+    font-size: 10px;
+    height: 21px;
+    border: 1.5px solid #ffa31a;
   }
   .input-mail-phone,
   .input-message {
-    width: 560px;
+    width: 269px;
   }
   .input-first-name,
   .input-surname {
-    width: 250px;
+    width: 125px;
   }
   .input-surname {
-    margin-left: 55px;
+    margin-left: 15px;
   }
   .advantage__image-1 {
     margin-left: 70px;
@@ -648,27 +701,30 @@ body {
   }
   .footer-block {
     background-color: #ffa31a;
-    width: 1200px;
+    width: 360px;
+    margin-top: -80px;
   }
   .button-connection {
-    margin-top: 380px;
-    margin-left: -410px;
-    width: 200px;
-    height: 45px;
+    margin-top: 235px;
+    margin-left: -253px;
+    width: 92px;
+    height: 21px;
     background-color: #ffa31a;
     color: #ffffff;
-    border: 1px solid #000000;
-    border-radius: 20px;
-    font-size: 25px;
+    border-color: #292929;
+    border-radius: 10px;
+    font-size: 12px;
   }
   .header-logo {
-    margin-left: 70px;
+    margin-left: 5px;
+    height: 65px;
+    width: 70px;
   }
   .footer-link {
-    font-size: 25px;
+    font-size: 12px;
   }
   .social-links {
-    margin-right: 80px;
+    margin-right: 15px;
     margin-left: 0px;
   }
 }
