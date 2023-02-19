@@ -1,4 +1,4 @@
 new Swiper('.image-slider', {
-  slidesPerView: 3,
+  slidesPerView: 2.93,
   loop: true,
 })
